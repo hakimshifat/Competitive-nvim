@@ -12,5 +12,8 @@ Then execute "cpb clone" . Then press the Competitive Companion icon then it wil
 nvim into the cpp file.
 
 Control + Alt + B will act as :Test and will show the testcases.
-Control + C = compile
+
+Control + C = compile .
+
+
 Control + X = Execute
