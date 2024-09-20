@@ -1,5 +1,5 @@
 {
-  "contestsDirectory": "/home/sifat/Contests",
+  "contestsDirectory": "<FileStoreLocation>",
   "port": 1327,
   "editor": "kitty",
   "closeAfterClone": false,
@@ -11,7 +11,7 @@
   "cloneInCurrentDir": false,
   "languages": {
     "cpp": {
-      "template": "/home/sifat/CP/Template.cpp",
+      "template": "<TemplateLocation>",
       "command": "g++ -std=gnu++17 -O2",
       "debugCommand": "g++ -std=gnu++17 -DDEBUG -Wshadow -Wall",
       "aliases": {
