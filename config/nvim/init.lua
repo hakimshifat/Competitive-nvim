@@ -1,3 +1,2 @@
-require("custom.core")
-require("custom.lazy")
-require("nvim-tree").setup()
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

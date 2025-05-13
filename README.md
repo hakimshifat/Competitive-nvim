@@ -7,14 +7,16 @@ Like "paru/yay cpbooster"
 Then Install "https://github.com/searleser97/cpbooster.vim" for vim or Neovim as per your config.
 
 After installing, execute "cpb init" to generate the config file which i mainly used to store and load my cpp template. 
+And i've set an alias in my .zshrc to call this.
 
 Make sure you have "Competitve Companion" installed on your browser.
+Then Set Keybinding for compiling and running. 
 
-Then execute "cpb clone" . Then press the Competitive Companion icon then it will Generate the testcases and .cpp file inside a organized folder.
+Like i've set this to press F9 and run the testcases against my code.
 
-Control + Alt + B will act as :Test and will show the testcases.
+```
+vim.api.nvim_set_keymap("n", "<F9>", ":Test<CR>", { noremap = true, silent = true })
+```
 
-Control + C = compile .
+```
 
-
-Control + X = Execute
