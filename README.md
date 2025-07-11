@@ -6,6 +6,13 @@ Like "paru/yay cpbooster"
 
 Then Install "https://github.com/searleser97/cpbooster.vim" for vim or Neovim as per your config.
 
+
+```
+return{
+ "searleser97/cpbooster.vim"
+ }
+```
+
 After installing, execute "cpb init" to generate the config file which i mainly used to store and load my cpp template. 
 And i've set an alias in my .zshrc to call this.
 
