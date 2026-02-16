@@ -2,7 +2,9 @@ Personal Nvim Config for Competitive Programming
 
 You would need "cpbooster" for this. Install it using your favourite package manager.
 
-Like "paru/yay cpbooster"
+```
+npm install cpbooster -g
+```
 
 Then Install "https://github.com/searleser97/cpbooster.vim" for vim or Neovim as per your config.
 
